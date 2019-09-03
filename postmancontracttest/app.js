@@ -3,8 +3,9 @@ const app = express()
 const port = 3000
 
 const testData = {
-  firstName: 'Homer',
-  lastName: 'Simpson'
+  name: 'John Doe',
+  age: '30',
+  account_balance: '15.5'
 }
 
 app.get('/', (req, res) => res.send(testData))

@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "contractTests": "node ./apiContractTest.js",
+    "contractTests": "npm run startserver && npm run e2e",
+    "startserver": "node ./app.js",
+    "e2e":"node ./apiContractTest.js",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gururaj",
