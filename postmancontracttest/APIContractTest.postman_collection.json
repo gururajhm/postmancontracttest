@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Validate Schema",
+			"name": "ValidateSchema",
 			"event": [
 				{
 					"listen": "prerequest",
